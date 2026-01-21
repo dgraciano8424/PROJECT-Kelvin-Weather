@@ -11,4 +11,6 @@ const fahrenheit = Math.floor(celsius * (9 / 5) + 32);
 console.log(`The temperature is ${fahrenheit}F`);
 // 0 Kelvin is -460 F
 
-const newton = celsius * (33 / 100);
+// I am interpolating the newton variable into my string. Calculating the equation of Celsius multiplied by the remainder of 33/100. So Newton is equal to 1/3 of celsius.
+const newton = Math.floor(celsius * (33 / 100));
+console.log(`The temperature in Newton is ${newton}`);
