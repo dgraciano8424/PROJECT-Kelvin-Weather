@@ -1,4 +1,5 @@
 const userName = "David";
+//console log of a ternary expression with a string interpolation embedded inside of it. If condition is string it will print "Hello (userName)!", otherwise "Hello!"
 console.log(String ? `Hello ${userName}!` : "Hello!");
 
 //constant variable that prints out the question from User
