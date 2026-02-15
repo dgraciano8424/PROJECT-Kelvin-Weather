@@ -4,5 +4,10 @@ let story =
 let overusedWords = ["really", "very", "basically"];
 
 let unnecessaryWords = ["extremely", "literally", "actually"];
+//Using .length on story array to find the out how many words total.
+// var storyWords = [console.log(storyWords.length)];
+var betterWords = story.push();
 
-var storyWords = [console.log(story.length)];
+// arr.forEach(function (currentValue, index, array) {
+//   // iterator
+// });
