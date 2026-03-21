@@ -5,6 +5,12 @@ let overusedWords = ["really", "very", "basically"];
 
 let unnecessaryWords = ["extremely", "literally", "actually"];
 
+<<<<<<< HEAD
+var storyWords = [console.log(story.length)];
+
+var storyWords = story.split(" ");
+console.log(storyWords);
+=======
 //Step 1 Used .split set to split at the beginning of any whitespace.
 var storyWords = story.split(" ");
 
@@ -80,3 +86,4 @@ for (var word in greatestWord) {
   }
 }
 //8.3Replaced overused words with something else.
+>>>>>>> 114c7746b42da253687265e0d836ddb7b05f8692
