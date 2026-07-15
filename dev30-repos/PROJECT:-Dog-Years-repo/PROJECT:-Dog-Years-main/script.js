@@ -24,5 +24,5 @@ console.log(myName);
 
 //this line is a console log that takes a string and adds 3 interpolations (${myName}, ${myAge} and ${myAgeInDogYears}) making it more dynamic
 console.log(
-  `My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`
+  `My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`,
 );
